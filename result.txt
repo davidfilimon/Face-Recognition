@@ -1,0 +1,6 @@
+Timp de rulare: 0.1100 secunde
+Total imagini: 400
+Imagini pentru antrenament: 240
+Imagini pentru testare: 160
+Rata de recunoastere: 0.00%
+Cel mai comun vecin: 0 (Aparitii: 2)

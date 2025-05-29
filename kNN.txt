@@ -1,0 +1,2 @@
+f		Rata de recunoastere: {RR * 100:.2f}%
+ 		Timp mediu de calcul: {AQT:.4f} secunde

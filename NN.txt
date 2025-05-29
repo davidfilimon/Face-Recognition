@@ -1,0 +1,16 @@
+Norma 1
+Rata de recunoaștere: 100.00%
+Timp mediu: 0.0275 secunde
+
+Norma 2
+Rata de recunoaștere: 100.00%
+Timp mediu: 0.0254 secunde
+
+Norma inf
+Rata de recunoaștere: 100.00%
+Timp mediu: 0.0270 secunde
+
+Norma cos
+Rata de recunoaștere: 100.00%
+Timp mediu: 0.0456 secunde
+
