@@ -172,30 +172,7 @@ Iterative method for computing eigenfaces using Lanczos decomposition.
 
 ## 📊 Results & Statistics
 
-### Overall Performance Comparison
-
-| Method | Best Recognition Rate | Optimal Parameters | Avg. Processing Time |
-|--------|----------------------|-------------------|---------------------|
-| NN | XX.X% | Norm: X | X.XXX seconds |
-| k-NN | XX.X% | k=X, Norm: X | X.XXX seconds |
-| Eigenfaces | XX.X% | k=XX, Norm: X | X.XXX seconds |
-| Class Representatives | XX.X% | k=XX, Norm: X | X.XXX seconds |
-| Lanczos | XX.X% | k=XX, Norm: X | X.XXX seconds |
-
-### Detailed Analysis
-
-<!-- Add comprehensive comparison chart here -->
-![Method Comparison](images/method_comparison.png)
-*Comprehensive comparison of all methods across different parameters*
-
-### Distance Metrics Performance
-
-| Norm | Description | Best Method | Recognition Rate |
-|------|-------------|-------------|------------------|
-| L1 (Manhattan) | Sum of absolute differences | Method X | XX.X% |
-| L2 (Euclidean) | Square root of sum of squares | Method X | XX.X% |
-| L∞ (Infinite) | Maximum absolute difference | Method X | XX.X% |
-| Cosine | Cosine similarity measure | Method X | XX.X% |
+### For the statistics check the graphs above.
 
 ## 🚀 Usage
 
