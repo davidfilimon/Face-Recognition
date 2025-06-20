@@ -1,0 +1,1 @@
+K = 100, Norma = 4, Rata recunoastere: 45.00%, Timp procesare: 0.0010 secunde

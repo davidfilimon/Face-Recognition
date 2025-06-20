@@ -1,3 +1,3 @@
 Rata de recunoastere (%): 95.0,
- Timp de procesare (s): 1.2649281024932861 
- Timp de procesare (s): 0.19469141960144043
+ Timp de procesare (s): 0.580035924911499 
+ Timp de procesare (s): 0.10219049453735352

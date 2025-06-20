@@ -110,6 +110,7 @@ class MainApp(QMainWindow):
     def afisare_imagine_calculata(self, file_path):
         
         image = QImage(file_path)
+        print(file_path)
         if image.isNull():
             QMessageBox.warning(self, "Atentie", "Imaginea nu a putut fi deschisa.")
             return
@@ -196,7 +197,7 @@ class MainApp(QMainWindow):
                 z[i] = 1 - np.dot(A[:, i], poza_selectata) / (np.linalg.norm(A[:, i]) * np.linalg.norm(poza_selectata))
         
         index_gasit = np.argmin(z)  
-        cale_imagine = f"D:\\att_faces\\s{index_gasit // 8 + 1}\\1.pgm"
+        cale_imagine = f"D:\\att_faces\\att_faces\s{index_gasit // 8 + 1}\\1.pgm"
         self.afisare_imagine_calculata(cale_imagine)  
         return index_gasit
     
@@ -284,7 +285,7 @@ class MainApp(QMainWindow):
                 z[i] = (1 - np.dot(A[:,i], poza_selectata)) / (np.linalg.norm(A[:,i], 2) * np.linalg.norm(poza_selectata, 2))
         
         index_gasit = mode(np.argsort(z)[:k]// 8 + 1)
-        cale_imagine = f"D:\\att_faces\\s{index_gasit}\\1.pgm"
+        cale_imagine = f"D:\\att_faces\\att_faces\\s{index_gasit}\\1.pgm"
         self.afisare_imagine_calculata(cale_imagine)
         return mode(np.argsort(z)[:k] // 8 + 1)
     
