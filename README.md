@@ -44,8 +44,8 @@ pip install PyQt6 opencv-python numpy matplotlib scipy
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/face-recognition-system.git
-cd face-recognition-system
+git clone https://github.com/davidfilimon/Face-Recognition.git
+cd Face-Recognition
 ```
 
 ### Run the Application
