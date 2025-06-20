@@ -50,7 +50,7 @@ cd Face-Recognition
 
 ### Run the Application
 ```bash
-python main.py
+python app.py
 ```
 
 ## 📁 Dataset
